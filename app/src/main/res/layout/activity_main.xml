@@ -14,12 +14,12 @@
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/status_bar_kitkat_height"
+            android:layout_height="@dimen/status_bar_height"
             android:background="?colorPrimary"/>
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/status_bar_lollipop_height"
+            android:layout_height="@dimen/status_bar_height"
             android:background="?colorPrimaryDark"/>
 
     </LinearLayout>
@@ -27,7 +27,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/status_bar_margin_top">
+        android:layout_marginTop="@dimen/navigation_drawer_header_margin">
 
         <TextView
             android:id="@+id/textView"
@@ -60,5 +60,3 @@
         app:theme="@style/NavigationViewTheme"/>
 
 </android.support.v4.widget.DrawerLayout>
-    Status API Training Shop Blog About
-    © 2016 GitHub, Inc. Terms Privacy Security Contact Help

@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
                                 textView.setText(menuItem.getTitle());
                                 Toast.makeText(MainActivity.this, "Launching " + menuItem.getTitle().toString(), Toast.LENGTH_SHORT).show();
                                 drawerLayout.closeDrawer(GravityCompat.START);
-                                Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
+                                Intent intent = new Intent(MainActivity.this, Settings_activity.class);
                                 startActivity(intent);
                                 return true;
                             case R.id.item_navigation_drawer_help_and_feedback:
