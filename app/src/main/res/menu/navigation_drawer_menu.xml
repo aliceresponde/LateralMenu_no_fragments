@@ -2,6 +2,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!--group  with 4,  just  single item selected-->
+    <!--id for future referencia-->
+    <!--icon 100 % opacity, black-->
     <group android:checkableBehavior="single">
         <item
             android:checked="true"
